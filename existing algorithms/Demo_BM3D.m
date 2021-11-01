@@ -21,11 +21,11 @@ t2=clock;
 disp(['runing time:',num2str(etime(t2,t1)),'s']);
 
 %%%%%%%%%%%
-
-figure(1),subplot(221),imshow(Ima,[]);
-subplot(222),imshow(f,[]);
-subplot(223),imshow(u,[]);
-mse=mean((u(:)-Ima(:)).^2);
+figure(1),
+subplot(221),imshow(Ima),title('Original');
+subplot(222),imshow(f,[]),title('Noisy');
+subplot(223),imshow(u,[]);title('BM3D'); drawnow;
+subplot(224),imshow(f-u,[]),title('Noise');
 final_psnr=Cal_psnr(u,Ima);
 final_ssim=Cal_ssim(255*u,255*Ima);
 fprintf("PSNR/SSIM=%.2f/%.4f\n",final_psnr,final_ssim);
