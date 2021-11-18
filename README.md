@@ -1,5 +1,6 @@
 # MoAMN
 This code is for "A Dual Model for Restoring Images Corrupted by Mixture of Additive and Multiplicative Noise"
+
 the authors: Cuicui Zhao, Jun Liu, Jie Zhang  
 
 The proposed method's codes : MoAMNTV, MoAMNBM3D, MoAMNIRCNN.
