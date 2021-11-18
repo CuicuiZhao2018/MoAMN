@@ -7,7 +7,7 @@ The proposed method's codes : MoAMNTV, MoAMNBM3D, MoAMNIRCNN.
 
 The existing codes: ROF, AA, BM3D, IRCNN
 
-The codes for MoAMNIRCNN and IRCNN need the MatConvNet package. The IRCNN denoiser used in the proposed model is the same as [3], and it is trained and plugin-and-play. So one can apply the code directly to image denoising, which does not need to train.
+The codes for MoAMNIRCNN and IRCNN need the MatConvNet package. The IRCNN denoiser is just a part of the proposed model and is the same as [3]. This part is trained and plugin-and-play. So one can apply the code directly to image denoising, which does not need to train.
 
 Reference:
 
