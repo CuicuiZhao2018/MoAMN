@@ -7,7 +7,7 @@ The proposed method's codes : MoAMNTV, MoAMNBM3D, MoAMNIRCNN.
 
 The existing codes: ROF, AA, BM3D, IRCNN
 
-The code for MoAMNIRCNN and IRCNN needs MatConvNet package.  
+The code for MoAMNIRCNN and IRCNN needs MatConvNet package. The IRCNN denoiser used in the proposed model is the same as [3], and it is a trained plugin-and-play term. So one can can apply this code directly to image denoising。
 
 Reference:
 
@@ -15,4 +15,4 @@ Reference:
 
 [2] K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3-D transform-domain collaborative filtering,” IEEE Trans. Image Process., vol. 16, no. 8, pp. 2080–2095, Aug. 2007.
 
-[3] [27] K. Zhang, W. Zuo, S. Gu, and L. Zhang, “Learning deep CNN denoiser prior for image restoration",in 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017, pp. 2808–2817.
+[3] K. Zhang, W. Zuo, S. Gu, and L. Zhang, “Learning deep CNN denoiser prior for image restoration",in 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017, pp. 2808–2817.
