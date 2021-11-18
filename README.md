@@ -1,13 +1,12 @@
 # MoAMN
-Adaptive variational Image Denoiser for a Mixture of Additive and Multiplicative Noise based on TV,BM3D and IRCNN regularizations
+This code is for "A Dual Model for Restoring Images Corrupted by Mixture of Additive and Multiplicative Noise"
 the authors: Cuicui Zhao, Jun Liu, Jie Zhang  
-Corresponding author: Jun Liu (e-mail: jliu@bnu.edu.cn).
 
 The proposed method's codes : MoAMNTV, MoAMNBM3D, MoAMNIRCNN.
 
 The existing codes: ROF, AA, BM3D, IRCNN
 
-The code for MoAMNIRCNN and IRCNN needs MatConvNet package. The IRCNN denoiser used in the proposed model is the same as [3], and it is a trained plugin-and-play term. So one can can apply this code directly to image denoising。
+The code for MoAMNIRCNN and IRCNN needs the MatConvNet package. The IRCNN denoiser used in the proposed model is the same as [3], and it is trained and plugin-and-play. So one can apply the code directly to image denoising, which does not need to train.
 
 Reference:
 
